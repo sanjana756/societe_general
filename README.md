@@ -28,12 +28,12 @@
 
 ```mermaid
 graph TD
-    A[Feeds (RSS/XML)] -->|fetch| B[Fetcher]
-    B -->|raw entries| C[Data Storage]
-    C -->|parse| D[IOC Parser]
-    C -->|summarize| E[Summarizer]
-    D -->|IOCs| F[Dashboard]
-    E -->|Summaries| F
+    A[Feeds (RSS/XML)] -- fetch --> B[Fetcher]
+    B -- raw entries --> C[Data Storage]
+    C -- parse --> D[IOC Parser]
+    C -- summarize --> E[Summarizer]
+    D -- IOCs --> F[Dashboard]
+    E -- Summaries --> F
     F[Dashboard/UI]
 ```
 
