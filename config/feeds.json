@@ -1,0 +1,9 @@
+{
+  "feeds": [
+    "https://www.bsi.bund.de/SiteGlobals/Functions/RSSFeed/RSSNewsfeed/RSSNewsfeed.xml",  
+    "https://www.f5.com/labs/rss-feeds/threats.xml",  
+    "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",  
+    "https://isc.sans.edu/rssfeed.xml",  
+    "https://openphish.com/feed.txt"
+]
+}
