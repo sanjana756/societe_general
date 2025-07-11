@@ -1,0 +1,264 @@
+[
+  {
+    "feed": "https://www.f5.com/labs/rss-feeds/threats.xml",
+    "title": "Fight Credential Stuffing by Taking a New Approach to Authorization",
+    "link": "https://www.f5.com/labs/articles/threat-intelligence/fight-credential-stuffing-by-taking-a-new-approach-to-authorization",
+    "published": "Wed, 31 May 2017 07:00:00 GMT",
+    "summary": "How a token-based authorization model can help organizations dramatically reduce credential stuffing attacks.",
+    "iocs": []
+  },
+  {
+    "feed": "https://www.f5.com/labs/rss-feeds/threats.xml",
+    "title": "Vulnerabilities, Exploits, and Malware Driving Attack Campaigns in June 2019",
+    "link": "https://www.f5.com/labs/articles/threat-intelligence/vulnerabilities-exploits-and-malware-driving-attack-campaigns-in-june-2019",
+    "published": "Wed, 31 Jul 2019 17:40:00 GMT",
+    "summary": "Similar to April and May, threat actors in June continued targeting the deserialization vulnerabilities found in Oracle WebLogic to mine cryptocurrency.",
+    "iocs": []
+  },
+  {
+    "feed": "https://www.f5.com/labs/rss-feeds/threats.xml",
+    "title": "Vulnerabilities, Exploits, and Malware Driving Attack Campaigns in September 2019",
+    "link": "https://www.f5.com/labs/articles/threat-intelligence/vulnerabilities-exploits-and-malware-driving-attack-campaigns-in-september-2019",
+    "published": "Wed, 30 Oct 2019 13:10:00 GMT",
+    "summary": "Threat actors shift focus away from cryptominers and back to remote code execution&amp;mdash;this month with a new zero-day exploits.",
+    "iocs": []
+  },
+  {
+    "feed": "https://www.f5.com/labs/rss-feeds/threats.xml",
+    "title": "Old Dog, New Targets: Switching to Windows to Mine Electroneum",
+    "link": "https://www.f5.com/labs/articles/threat-intelligence/old-dog-new-targets-switching-to-windows-to-mine-electroneum",
+    "published": "Wed, 28 Mar 2018 07:00:00 GMT",
+    "summary": "Apache Struts 2 Jakarta Multipart Parser RCE crypto-mining campaign is now targeting Windows, not just Linux systems.",
+    "iocs": []
+  },
+  {
+    "feed": "https://www.f5.com/labs/rss-feeds/threats.xml",
+    "title": "rTorrent Client Exploited In The Wild To Deploy Monero Crypto-Miner",
+    "link": "https://www.f5.com/labs/articles/threat-intelligence/rtorrent-client-exploited-in-the-wild-to-deploy-monero-crypto-miner",
+    "published": "Wed, 28 Feb 2018 08:00:00 GMT",
+    "summary": "A previously undisclosed misconfiguration vulnerability in the rTorrent client is being exploited in the wild to mine Monero.",
+    "iocs": []
+  },
+  {
+    "feed": "https://www.f5.com/labs/rss-feeds/threats.xml",
+    "title": "Cyberattacks Targeting Latin America, January through March 2021",
+    "link": "https://www.f5.com/labs/articles/threat-intelligence/cyberattacks-targeting-latin-america-january-through-march-2021",
+    "published": "Wed, 28 Apr 2021 14:27:00 GMT",
+    "summary": "Latin America&amp;rsquo;s cyberattack landscape saw continued focus on port 5900 and the targeting of common web vulnerabilities.",
+    "iocs": []
+  },
+  {
+    "feed": "https://www.f5.com/labs/rss-feeds/threats.xml",
+    "title": "Bleichenbacher Rears Its Head Again with the ROBOT Attack",
+    "link": "https://www.f5.com/labs/articles/threat-intelligence/bleichenbacher-rears-its-head-again-with-the-robot-attack",
+    "published": "Wed, 27 Dec 2017 03:00:00 GMT",
+    "summary": "Bleichenbacher attacks will likely continue to pop up until TLS 1.3 is fully adopted, which could take years.",
+    "iocs": []
+  },
+  {
+    "feed": "https://www.f5.com/labs/rss-feeds/threats.xml",
+    "title": "How Credential Stuffing Bots Bypass Defenses",
+    "link": "https://www.f5.com/labs/articles/threat-intelligence/how-credential-stuffing-bots-bypass-defenses",
+    "published": "Wed, 26 Aug 2020 14:13:00 GMT",
+    "summary": "Website logins are under constant assault, with attackers quickly modifying their bots to evade simplistic defenses.",
+    "iocs": []
+  },
+  {
+    "feed": "https://www.f5.com/labs/rss-feeds/threats.xml",
+    "title": "The State of Post-Quantum Cryptography (PQC) on the Web",
+    "link": "https://www.f5.com/labs/articles/threat-intelligence/the-state-of-pqc-on-the-web",
+    "published": "Wed, 25 Jun 2025 07:11:00 GMT",
+    "summary": "We analyze the world&amp;rsquo;s most popular websites and most widely used web browsers to determine the current state of PQC adoption on the web.",
+    "iocs": []
+  },
+  {
+    "feed": "https://www.f5.com/labs/rss-feeds/threats.xml",
+    "title": "Slave Malware Analysis: Evolving From IBAN Swaps to Persistent Webinjects",
+    "link": "https://www.f5.com/labs/articles/threat-intelligence/slave-malware-analysis-evolving-from-iban-swaps-to-persistent-webinjects-22439",
+    "published": "Wed, 24 Jun 2015 07:00:00 GMT",
+    "summary": "Slave is financial malware written in Visual Basic. Since 2015 it has evolved from relatively simple IBAN swapping.",
+    "iocs": []
+  },
+  {
+    "feed": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+    "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
+    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-mVfKVQAU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerability%26vs_k=1",
+    "published": "Wed, 25 Jun 2025 23:00:00 +0000",
+    "summary": "A vulnerability in the web-based management interface of Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to bypass the authorization mechanisms for specific …",
+    "iocs": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-mVfKVQAU&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-mVfKVQAU&lt;/a&gt;&lt;br&gt;&lt;br&gt"
+    ]
+  },
+  {
+    "feed": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+    "title": "Cisco Identity Services Engine Unauthenticated Remote Code Execution Vulnerabilities",
+    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-unauth-rce-ZAd2GnJ6?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Unauthenticated%20Remote%20Code%20Execution%20Vulnerabilities%26vs_k=1",
+    "published": "Wed, 25 Jun 2025 23:00:00 +0000",
+    "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to issue commands on the underlying …",
+    "iocs": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-unauth-rce-ZAd2GnJ6&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-unauth-rce-ZAd2GnJ6&lt;/a&gt;&lt;br&gt;&lt;br&gt",
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-unauth-rce-ZAd2GnJ6?vs_f=Cisco"
+    ]
+  },
+  {
+    "feed": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+    "title": "Cisco Identity Services Engine Arbitrary File Upload Vulnerability",
+    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-file-upload-P4M8vwXY?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Arbitrary%20File%20Upload%20Vulnerability%26vs_k=1",
+    "published": "Tue, 24 Jun 2025 02:16:21 +0000",
+    "summary": "A vulnerability in the API of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an authenticated, remote attacker with administrative privileges to …",
+    "iocs": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-file-upload-P4M8vwXY&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-file-upload-P4M8vwXY&lt;/a&gt;&lt;br&gt;&lt;br&gt"
+    ]
+  },
+  {
+    "feed": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+    "title": "Cisco Meraki MX and Z Series Teleworker Gateway AnyConnect VPN Denial of Service Vulnerabilities",
+    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-meraki-mx-vpn-dos-QTRHzG2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20MX%20and%20Z%20Series%20Teleworker%20Gateway%20AnyConnect%20VPN%20Denial%20of%20Service%20Vulnerabilities%26vs_k=1",
+    "published": "Tue, 03 Jun 2025 04:22:28 +0000",
+    "summary": "Multiple vulnerabilities in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to cause a denial …",
+    "iocs": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-meraki-mx-vpn-dos-QTRHzG2&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-meraki-mx-vpn-dos-QTRHzG2&lt;/a&gt;&lt;br&gt;&lt;br&gt",
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-meraki-mx-vpn-dos-QTRHzG2?vs_f=Cisco"
+    ]
+  },
+  {
+    "feed": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+    "title": "Cisco Meraki MX and Z Series Teleworker Gateway AnyConnect VPN Session Takeover and Denial of Service Vulnerability",
+    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-meraki-mx-vpn-dos-by-QWUkqV7X?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20MX%20and%20Z%20Series%20Teleworker%20Gateway%20AnyConnect%20VPN%20Session%20Takeover%20and%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+    "published": "Tue, 03 Jun 2025 04:22:27 +0000",
+    "summary": "A vulnerability in the Cisco AnyConnect VPN server of Cisco Meraki MX and Cisco Meraki Z Series Teleworker Gateway devices could allow an unauthenticated, remote attacker to hijack an AnyConnect VPN …",
+    "iocs": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-meraki-mx-vpn-dos-by-QWUkqV7X&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-meraki-mx-vpn-dos-by-QWUkqV7X&lt;/a&gt;&lt;br&gt;&lt;br&gt"
+    ]
+  },
+  {
+    "feed": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+    "title": "Cisco Unified Contact Center Enterprise Cloud Connect Insufficient Access Control Vulnerability",
+    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-contcent-insuffacces-ArDOVhN8?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Contact%20Center%20Enterprise%20Cloud%20Connect%20Insufficient%20Access%20Control%20Vulnerability%26vs_k=1",
+    "published": "Thu, 22 May 2025 06:00:00 +0000",
+    "summary": "A vulnerability in the Cloud Connect component of Cisco Unified Contact Center Enterprise (CCE) could allow an unauthenticated, remote attacker to read and modify data on an affected …",
+    "iocs": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-contcent-insuffacces-ArDOVhN8&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-contcent-insuffacces-ArDOVhN8&lt;/a&gt;&lt;br&gt;&lt;br&gt"
+    ]
+  },
+  {
+    "feed": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+    "title": "Cisco Webex Services Cross-Site Scripting Vulnerabilities",
+    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-xss-7teQtFn8?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Webex%20Services%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
+    "published": "Thu, 22 May 2025 06:00:00 +0000",
+    "summary": "Multiple vulnerabilities in Cisco Webex could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack.&lt;br&gt;&lt;br&gt; These vulnerabilities are due to improper …",
+    "iocs": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-xss-7teQtFn8&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-xss-7teQtFn8&lt;/a&gt;&lt;br&gt;&lt;br&gt"
+    ]
+  },
+  {
+    "feed": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+    "title": "Cisco Webex Meetings Services HTTP Cache Poisoning Vulnerability",
+    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-cache-Q4xbkQBG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Webex%20Meetings%20Services%20HTTP%20Cache%20Poisoning%20Vulnerability%26vs_k=1",
+    "published": "Thu, 22 May 2025 06:00:00 +0000",
+    "summary": "A vulnerability in client join services of Cisco Webex Meetings could allow an unauthenticated, remote attacker to manipulate cached HTTP responses within the meeting join …",
+    "iocs": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-cache-Q4xbkQBG&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-cache-Q4xbkQBG&lt;/a&gt;&lt;br&gt;&lt;br&gt"
+    ]
+  },
+  {
+    "feed": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+    "title": "Cisco Secure Network Analytics Manager Privilege Escalation Vulnerability",
+    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sna-ssti-dPuLqSmZ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Network%20Analytics%20Manager%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+    "published": "Thu, 22 May 2025 06:00:00 +0000",
+    "summary": "A vulnerability in the web-based management interface of Cisco Secure Network Analytics Manager and Cisco Secure Network Analytics Virtual Manager could allow an authenticated, remote attacker with …",
+    "iocs": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sna-ssti-dPuLqSmZ&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sna-ssti-dPuLqSmZ&lt;/a&gt;&lt;br&gt;&lt;br&gt"
+    ]
+  },
+  {
+    "feed": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+    "title": "Cisco Secure Network Analytics Manager API Authorization Vulnerability",
+    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sna-apiacv-4B6X5ysw?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Network%20Analytics%20Manager%20API%20Authorization%20Vulnerability%26vs_k=1",
+    "published": "Thu, 22 May 2025 06:00:00 +0000",
+    "summary": "A vulnerability in an API subsystem of Cisco Secure Network Analytics Manager and Cisco Secure Network Analytics Virtual Manager could allow an authenticated, remote attacker with low privileges to …",
+    "iocs": [
+      "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sna-apiacv-4B6X5ysw&quot;&gt;https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sna-apiacv-4B6X5ysw&lt;/a&gt;&lt;br&gt;&lt;br&gt"
+    ]
+  },
+  {
+    "feed": "https://isc.sans.edu/rssfeed.xml",
+    "title": "Setting up Your Own Certificate Authority for Development: Why and How., (Wed, Jul 9th)",
+    "link": "https://isc.sans.edu/diary/rss/32092",
+    "published": "Wed, 09 Jul 2025 14:32:54 GMT",
+    "summary": "There are several reasons why one would set up an internal certificate authority. Some are configured to support strong authentication schemes, some for additional flexibility and convenience. I am …",
+    "iocs": []
+  },
+  {
+    "feed": "https://isc.sans.edu/rssfeed.xml",
+    "title": "ISC Stormcast For Wednesday, July 9th, 2025 https://isc.sans.edu/podcastdetail/9518, (Wed, Jul 9th)",
+    "link": "https://isc.sans.edu/diary/rss/32090",
+    "published": "Wed, 09 Jul 2025 02:00:03 GMT",
+    "summary": "",
+    "iocs": []
+  },
+  {
+    "feed": "https://isc.sans.edu/rssfeed.xml",
+    "title": "Microsoft Patch Tuesday, July 2025, (Tue, Jul 8th)",
+    "link": "https://isc.sans.edu/diary/rss/32088",
+    "published": "Tue, 08 Jul 2025 18:24:33 GMT",
+    "summary": "Today, Microsoft released patches for 130 Microsoft vulnerabilities and …",
+    "iocs": []
+  },
+  {
+    "feed": "https://isc.sans.edu/rssfeed.xml",
+    "title": "ISC Stormcast For Tuesday, July 8th, 2025 https://isc.sans.edu/podcastdetail/9516, (Tue, Jul 8th)",
+    "link": "https://isc.sans.edu/diary/rss/32086",
+    "published": "Tue, 08 Jul 2025 02:20:02 GMT",
+    "summary": "",
+    "iocs": []
+  },
+  {
+    "feed": "https://isc.sans.edu/rssfeed.xml",
+    "title": "SSH Tunneling in Action: direct-tcp requests &#x5b;Guest Diary&#x5d;, (Wed, Jul 9th)",
+    "link": "https://isc.sans.edu/diary/rss/32094",
+    "published": "Thu, 10 Jul 2025 21:22:00 GMT",
+    "summary": "&#x5b;This is a Guest Diary by Sihui Neo, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
+    "iocs": []
+  },
+  {
+    "feed": "https://isc.sans.edu/rssfeed.xml",
+    "title": "ISC Stormcast For Thursday, July 10th, 2025 https://isc.sans.edu/podcastdetail/9520, (Thu, Jul 10th)",
+    "link": "https://isc.sans.edu/diary/rss/32096",
+    "published": "Thu, 10 Jul 2025 02:00:02 GMT",
+    "summary": "",
+    "iocs": []
+  },
+  {
+    "feed": "https://isc.sans.edu/rssfeed.xml",
+    "title": "A few interesting and notable ssh/telnet usernames, (Sun, Jul 6th)",
+    "link": "https://isc.sans.edu/diary/rss/32080",
+    "published": "Sun, 06 Jul 2025 15:29:31 GMT",
+    "summary": "Just looked at our telnet/ssh honeypot data, and found some interesting new usernames that  attackers attempted to use:&#xd;",
+    "iocs": []
+  },
+  {
+    "feed": "https://isc.sans.edu/rssfeed.xml",
+    "title": "What's My (File)Name&#x3f;, (Mon, Jul 7th)",
+    "link": "https://isc.sans.edu/diary/rss/32084",
+    "published": "Mon, 07 Jul 2025 07:54:54 GMT",
+    "summary": "Modern malware implements a lot of anti-debugging and anti-analysis features. Today, when a malware is spread in the wild, there are chances that it will be automatically sent into a automatic …",
+    "iocs": []
+  },
+  {
+    "feed": "https://isc.sans.edu/rssfeed.xml",
+    "title": "ISC Stormcast For Monday, July 7th, 2025 https://isc.sans.edu/podcastdetail/9514, (Mon, Jul 7th)",
+    "link": "https://isc.sans.edu/diary/rss/32082",
+    "published": "Mon, 07 Jul 2025 02:00:02 GMT",
+    "summary": "",
+    "iocs": []
+  },
+  {
+    "feed": "https://isc.sans.edu/rssfeed.xml",
+    "title": "ISC Stormcast For Friday, July 11th, 2025 https://isc.sans.edu/podcastdetail/9522, (Fri, Jul 11th)",
+    "link": "https://isc.sans.edu/diary/rss/32098",
+    "published": "Fri, 11 Jul 2025 02:00:03 GMT",
+    "summary": "",
+    "iocs": []
+  }
+]

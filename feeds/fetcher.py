@@ -1,40 +1,47 @@
 import json
-from pathlib import Path
 import feedparser
+from pathlib import Path
 
-# Paths
-ROOT       = Path(__file__).parent.parent
-CONFIG     = ROOT / "config" / "feeds.json"
-DATA_DIR   = ROOT / "data"
+ROOT        = Path(__file__).parent.parent
+CONFIG      = ROOT / "config" / "feeds.json"
+DATA_DIR    = ROOT / "data"
 OUTPUT_FILE = DATA_DIR / "raw_feeds.json"
 
 def load_feed_urls():
-    """Load the list of feed URLs from config/feeds.json."""
     with open(CONFIG, encoding="utf-8") as f:
         return json.load(f).get("feeds", [])
 
 def fetch_all():
     """
-    Fetch every feed URL, collect entries, and persist to data/raw_feeds.json.
-    Returns the list of all entry dicts.
+    Fetch each feed URL with error handling.
+    On failure, logs the error and skips that feed.
     """
     urls    = load_feed_urls()
     entries = []
 
     for url in urls:
-        parsed = feedparser.parse(url)
-        for e in parsed.entries:
-            entries.append({
-                "feed":      url,
-                "title":     e.get("title", ""),
-                "link":      e.get("link", ""),
-                "published": e.get("published", ""),
-                "summary":   e.get("summary", e.get("description", ""))
-            })
+        try:
+            parsed = feedparser.parse(url)
+            # feedparser marks broken feeds with bozo flag
+            if getattr(parsed, "bozo", False):
+                raise parsed.bozo_exception or Exception("Unknown feedparser error")
 
-    # Ensure data directory exists
+            for e in parsed.entries:
+                entries.append({
+                    "feed":      url,
+                    "title":     e.get("title", ""),
+                    "link":      e.get("link", ""),
+                    "published": e.get("published", ""),
+                    "summary":   e.get("summary", e.get("description", ""))
+                })
+
+            print(f"✔️  Fetched {len(parsed.entries)} items from {url}")
+
+        except Exception as exc:
+            print(f"❌ Error fetching {url!r}: {exc}")
+
+    # Persist whatever we got
     DATA_DIR.mkdir(exist_ok=True)
-    # Write out raw feeds
     with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
         json.dump(entries, out, indent=2, ensure_ascii=False)
 
@@ -42,4 +49,4 @@ def fetch_all():
 
 if __name__ == "__main__":
     all_entries = fetch_all()
-    print(f"✅ Fetched {len(all_entries)} entries across {len(load_feed_urls())} feeds.")
+    print(f"\nTotal fetched entries: {len(all_entries)} across {len(load_feed_urls())} feeds.")
