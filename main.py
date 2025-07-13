@@ -7,6 +7,7 @@ from itertools import groupby
 from feeds.fetcher import fetch_all
 from parsers.ioc_parser import extract_iocs
 from summarizer.summarise import summarize
+from alerting.email_alert import send_email_alert
 
 def run_pipeline():
     # 1. Fetch raw feed entries
@@ -52,6 +53,19 @@ def run_pipeline():
         # Build report object
         report = {**entry, "iocs": iocs, "summary": summary}
         processed_reports.append(report)
+
+        
+         # Send email if a new IOC is detected
+        print(f"Extracted IOCs: {iocs}")
+        if iocs:
+            email_body = f"New IOC detected in the feed '{entry['feed']}':\n\n" + "\n".join(iocs) + f"\n\nSummary:\n{summary}"
+            send_email_alert(
+                subject="New IOC Detected in Threat Intelligence Feed",
+                body=email_body,
+                to_email="anjali00878@gmail.com"  # Replace with recipient's email
+            )
+        else:
+            print("No IOCs found, skipping email alert.")
 
     # 4. Persist enriched reports
     out_dir = Path(__file__).parent / "data"
